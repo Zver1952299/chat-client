@@ -17,6 +17,14 @@
   }
 }
 
+.me {
+  text-align: right;
+
+  .text {
+    background-color: #4a8827;
+  }
+}
+
 .scroll {
   &::-webkit-scrollbar {
     width: 12px; /* ширина scrollbar */

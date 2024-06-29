@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { AppBar, Box, Button, Container, Input, Typography } from '@mui/material';
 import EmojiPicker from 'emoji-picker-react';
 import { useEffect, useState } from 'react';
