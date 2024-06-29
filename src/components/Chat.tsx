@@ -10,7 +10,7 @@ import Messages from './Messages';
 
 import styles from '../styles/Messages.module.scss';
 
-const socket = io.connect('http://localhost:5000');
+const socket = io.connect('https://chat-server-5gye.onrender.com');
 
 const Chat = () => {
   const { search } = useLocation();
