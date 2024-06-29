@@ -4,13 +4,9 @@ import { Box } from '@mui/material';
 import styles from '../styles/Messages.module.scss';
 
 const Messages = ({ messages, name }) => {
-  console.log(messages);
-
   return (
     <Box>
       {messages.map(({ message, user }, i) => {
-        console.log(user, name);
-
         const itsMe = user.name.trim().toLowerCase() === name.trim().toLowerCase();
         const className = itsMe ? styles.me : styles.user;
 
