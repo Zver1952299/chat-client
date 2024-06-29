@@ -1,0 +1,32 @@
+.message {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  .user {
+    padding-left: 4px;
+    font-size: 0.7rem;
+  }
+
+  .text {
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 5px;
+
+    background-color: #4c5a44;
+  }
+}
+
+.scroll {
+  &::-webkit-scrollbar {
+    width: 12px; /* ширина scrollbar */
+  }
+  &::-webkit-scrollbar-track {
+    background: #343b29; /* цвет дорожки */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #4c5a44; /* цвет плашки */
+    border-radius: 20px; /* закругления плашки */
+    border: 3px solid #4c5a44; /* padding вокруг плашки */
+  }
+}
